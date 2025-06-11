@@ -70,7 +70,7 @@ bool loadMedia()
         printf("Failed to load default image!\n");
         success = false;
     }
-    gKeyPressSurfaces[KEY_PRESS_SURFACE_DOWN] = loadSurface("up.bmp");
+    gKeyPressSurfaces[KEY_PRESS_SURFACE_DOWN] = loadSurface("down.bmp");
     if(gKeyPressSurfaces[KEY_PRESS_SURFACE_DOWN] == NULL){
         printf("Failed to load default image!\n");
         success = false;
